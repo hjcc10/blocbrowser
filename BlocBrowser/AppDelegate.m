@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "WebBrowserViewController.h"
 
 @interface AppDelegate ()
 
@@ -16,7 +17,13 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
+    self.window.backgroundColor = [UIColor lightGrayColor];
+    // The app windows are expected to have a root view controller at the end app windows launch.
+    // Without the next code, the app gives the above message.
+    self.window.rootViewController = [[UINavigationController alloc] initWithRootViewController:[[WebBrowserViewController alloc] init]];
+    [self.window makeKeyAndVisible];
     return YES;
 }
 

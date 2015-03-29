@@ -14,6 +14,7 @@
 		4734B3871AAA6516006F3614 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4734B3861AAA6516006F3614 /* Images.xcassets */; };
 		4734B38A1AAA6516006F3614 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4734B3881AAA6516006F3614 /* LaunchScreen.xib */; };
 		4734B3961AAA6517006F3614 /* BlocBrowserTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4734B3951AAA6517006F3614 /* BlocBrowserTests.m */; };
+		4734B3A11AAA6796006F3614 /* WebBrowserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4734B3A01AAA6796006F3614 /* WebBrowserViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		4734B38F1AAA6517006F3614 /* BlocBrowserTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlocBrowserTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4734B3941AAA6517006F3614 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4734B3951AAA6517006F3614 /* BlocBrowserTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlocBrowserTests.m; sourceTree = "<group>"; };
+		4734B39F1AAA6796006F3614 /* WebBrowserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebBrowserViewController.h; sourceTree = "<group>"; };
+		4734B3A01AAA6796006F3614 /* WebBrowserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebBrowserViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +66,8 @@
 		4734B36D1AAA6516006F3614 = {
 			isa = PBXGroup;
 			children = (
+				4734B39F1AAA6796006F3614 /* WebBrowserViewController.h */,
+				4734B3A01AAA6796006F3614 /* WebBrowserViewController.m */,
 				4734B3781AAA6516006F3614 /* BlocBrowser */,
 				4734B3921AAA6517006F3614 /* BlocBrowserTests */,
 				4734B3771AAA6516006F3614 /* Products */,
@@ -221,6 +226,7 @@
 			files = (
 				4734B3821AAA6516006F3614 /* ViewController.m in Sources */,
 				4734B37F1AAA6516006F3614 /* AppDelegate.m in Sources */,
+				4734B3A11AAA6796006F3614 /* WebBrowserViewController.m in Sources */,
 				4734B37C1AAA6516006F3614 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
